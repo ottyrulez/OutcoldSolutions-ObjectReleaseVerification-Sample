@@ -1,0 +1,20 @@
+﻿<Window x:Class="OutcoldSolutions.ObjectReleaseVerification.Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TabControl x:Name="TabControl" Margin="5" />
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="7">
+            <Button Width="150" Margin="0, 0, 7, 0" Click="AddTab">Add tab</Button>
+            <Button Width="150" Margin="0, 0, 7, 0" Click="RemoveTab">Remove tab</Button>
+        </StackPanel>
+    </Grid>
+</Window>
+
+    
